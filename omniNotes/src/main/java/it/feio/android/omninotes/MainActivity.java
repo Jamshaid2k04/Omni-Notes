@@ -118,6 +118,7 @@ public class MainActivity extends BaseActivity implements
     if (!launchIntroIfRequired() && isAppUpdated(getApplicationContext()) && !isDebugBuild()) {
       showChangelogAndUpdateCurrentVersion();
     }
+
   }
 
   private void showChangelogAndUpdateCurrentVersion() {
@@ -439,6 +440,7 @@ public class MainActivity extends BaseActivity implements
   }
 
 
+
   /**
    * Used to perform a quick text-only note saving (eg. Tasker+Pushbullet)
    */
@@ -450,6 +452,7 @@ public class MainActivity extends BaseActivity implements
     showToast(getString(R.string.note_updated), Toast.LENGTH_SHORT);
     finish();
   }
+
 
 
   private boolean receivedIntent(Intent i) {

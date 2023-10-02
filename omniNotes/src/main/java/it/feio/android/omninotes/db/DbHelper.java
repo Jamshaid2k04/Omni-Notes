@@ -167,6 +167,8 @@ public class DbHelper extends SQLiteOpenHelper {
       return forceWritable ? getWritableDatabase() : getReadableDatabase();
     } catch (IllegalStateException e) {
       return this.db;
+    } finally {
+      System.out.println("OK");
     }
   }
 

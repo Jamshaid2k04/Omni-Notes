@@ -32,4 +32,5 @@ public class IntroSlide4 extends IntroFragment {
     binding.introImage.setImageResource(R.drawable.slide4);
     binding.introDescription.setText(R.string.tour_detailactivity_attachment_detail);
   }
+
 }

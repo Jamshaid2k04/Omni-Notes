@@ -81,6 +81,7 @@ public class PasswordActivity extends BaseActivity {
   }
 
 
+
   private void initViews() {
     croutonHandle = findViewById(R.id.crouton_handle);
     password = findViewById(R.id.password);
